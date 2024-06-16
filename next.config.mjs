@@ -46,6 +46,10 @@ const fallbackDefaultExports = {
 const fallbackGetStaticProps = {}
 
 export default {
+  basePath: '/mirror/tailwindcss',
+  images: {
+    unoptimized: true,
+  },
   swcMinify: true,
   pageExtensions: ['js', 'jsx', 'mdx'],
   experimental: {
